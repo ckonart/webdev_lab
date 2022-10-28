@@ -1,0 +1,102 @@
+
+/* Mayer Reset */
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+/* Mayer Reset */
+
+body {
+    background-color: white;
+    /*change font*/
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border-color: black;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table, caption {
+    box-shadow: 2px 2px 0px;
+}
+
+table {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    border-style: none;
+    padding: 10px;
+    background-color: f0f0f0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+thead, tbody {
+    display: block
+}
+
+thead {
+    border-style: solid;
+    border-bottom-width: 2px;
+}
+
+thead > tr > th:last-child {
+    padding-right: 20px;
+}
+
+tbody 
+{
+   overflow: auto;
+   height: 350px;
+}
+
+caption {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    padding: 9px;
+    margin: 0px;
+    margin-bottom: 12px;
+    background-color: lightcoral;
+}
+
+th {
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    background-color: lightblue;
+    width: 95px;
+}
+
+td {
+    padding: 7px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeee;
+}
+
+tr:hover {
+    background-color: coral;
+    
+}
